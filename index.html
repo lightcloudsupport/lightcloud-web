@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>LightCloud — Minecraft Hosting</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<header>Light<b>Cloud</b></header>
+<main>
+<section id="home" class="on">
+<div class="c"><h1>Power Your World</h1><p>LightCloud offers fast Minecraft server hosting on AMD Ryzen 9 with NVMe SSD, DDoS protection, AetherPanel and friendly 24/7 Discord support — plus US VPS hosting at low prices.</p>
+<a class="btn" data-go="plans">View Plans</a><a class="btn o" id="hd" target="_blank" rel="noopener">Join Discord</a><a class="btn o" id="hdash" target="_blank" rel="noopener">Dashboard</a></div>
+<h2 class="c">Live Status</h2><p class="c">Real-time checks, refreshed every minute</p>
+<div class="card"><div class="big">99.9%</div><div>Uptime target</div><p class="c" id="chk" style="margin-bottom:0">Checking…</p></div>
+<div class="card" style="margin-top:12px" id="st"></div>
+<h2 class="c">About LightCloud</h2><p class="c">Built by gamers for gamers: reliable hosting, honest prices and real support.</p>
+<div class="card" id="ab"></div>
+</section>
+<section id="plans"><h1 class="ph">Plans</h1><div class="tabs"><button class="btn" id="t1">Minecraft</button><button class="btn o" id="t2">US VPS</button><button class="btn o" id="t3">Invite Rewards</button></div><div class="pg" id="pl"></div><div class="grid" id="rl" style="margin-top:14px"></div><p id="pn"></p><p>To order, pay on the Payment page and open a ticket on Discord.</p></section>
+<section id="payment"><h2 class="c" style="margin-top:0">Payment</h2><p class="c">Pay with UPI, then open a ticket on Discord</p><div class="card c" style="max-width:460px;margin:0 auto"><span class="badge">FamX · UPI</span><div class="qw"><img alt="UPI payment QR" src="assets/qr.jpg"></div><b>Mohammad Mowaz</b><p style="margin:6px 0 14px">Scan with any UPI app: PhonePe, Google Pay, Paytm, BHIM</p><button class="btn" onclick="pay('upi')">Pay with UPI app</button><p style="font-size:13px;margin:12px 0 4px">Or open a specific app:</p><button class="btn o" onclick="pay('gpay')">Google Pay</button><button class="btn o" onclick="pay('phonepe')">PhonePe</button><button class="btn o" onclick="pay('paytm')">Paytm</button><button class="btn o" onclick="copyUpi()" id="cu">Copy UPI ID</button><p style="font-size:13px">If nothing opens, copy the UPI ID or scan the QR.</p></div><h2>How to buy</h2><div class="grid"><div class="card"><div class="n">1</div><b>Pick a plan</b><p style="margin:6px 0 0">Choose a Minecraft or VPS plan on the Plans page.</p></div><div class="card"><div class="n">2</div><b>Pay with UPI</b><p style="margin:6px 0 0">Scan the QR or tap Pay with UPI app and pay the plan price.</p></div><div class="card"><div class="n">3</div><b>Open a ticket</b><p style="margin:6px 0 0">Join our Discord and open a ticket with your payment screenshot.</p></div><div class="card"><div class="n">4</div><b>Get your server</b><p style="margin:6px 0 0">We set it up and send your access details.</p></div></div></section>
+<section id="discord"><h2 style="margin-top:0">Discord</h2><p>Support, tickets, updates and giveaways — join our community.</p><a class="btn" id="dl" target="_blank" rel="noopener">Join LightCloud Discord</a></section>
+<section id="settings"><h2 style="margin-top:0">Settings</h2><h3>Themes</h3><div class="themes" id="tl"></div><h3>Custom accent</h3><input type="color" id="cc" value="#2f6bf0"> <button class="btn" id="rs">Reset</button></section>
+</main>
+<footer><a id="fp" target="_blank" rel="noopener">Dashboard</a><a id="fd" target="_blank" rel="noopener">Discord</a><a data-go="payment" href="#">Payment</a><a data-go="plans" href="#">Plans</a><div class="ph" style="margin:18px 0 6px;font-size:clamp(44px,15vw,110px)">LightCloud</div><div>Power Your World • © LightCloud</div></footer>
+<nav id="nav"></nav>
+<script src="script.js"></script></body></html>
